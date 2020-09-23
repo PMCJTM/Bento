@@ -38,5 +38,5 @@ function displayClock() {
     document.getElementById('month').innerText = mm;
     document.getElementById('day').innerText = dd;
 
-    setTimeout(displayClock, 1000);
+    setTimeout(displayClock, 100000);
 }
