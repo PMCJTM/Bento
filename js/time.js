@@ -26,7 +26,7 @@ function displayClock() {
     var ampm = '';
     
     if (format_12hour) {
-        ampm = hh >= 12 ? 'pm' : 'am';
+        ampm = hh >= 12 ? ' PM' : ' AM';
         hh = hh % 12;
         hh = hh ? hh : 12; //show mod 0 as 12
     }
@@ -38,5 +38,5 @@ function displayClock() {
     document.getElementById('month').innerText = mm;
     document.getElementById('day').innerText = dd;
 
-    setTimeout(displayClock, 100000);
+    setTimeout(displayClock, 1000000);
 }
