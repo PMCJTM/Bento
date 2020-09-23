@@ -5,7 +5,7 @@ const descElement = document.querySelector('.temperature-description p');
 // App data
 const weather = {};
 weather.temperature = {
-    unit: 'celcius',
+    unit: 'fahrenheit',
 };
 
 // Change to 'F' for Fahrenheit
